@@ -1,0 +1,28 @@
+nav {
+    background-color:#1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:85.375rem;
+    height: 80px;
+}
+nav img{
+ margin-left: 7rem;
+}
+.navigation-component{
+     margin-right: 2.313rem; 
+}
+nav a{
+     text-decoration: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.085px;
+    margin-right: 2rem; 
+}
+nav a:hover{
+    color: #e4ac13;
+}
