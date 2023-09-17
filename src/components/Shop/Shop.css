@@ -6,6 +6,7 @@
 .shop-container{
  display: grid;
  grid-template-columns: 4fr 1fr;
+ position: relative;
 }
 .product-container{
   display: grid;
@@ -18,4 +19,6 @@
    background-color: rgba(255, 153, 0, 0.30);
    width: 12rem;
    height:50rem ;
+   position: sticky;
+   top: 0;
 }
